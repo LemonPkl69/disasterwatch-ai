@@ -18,3 +18,11 @@ View your app in AI Studio: https://ai.studio/apps/drive/1doyaH2-jdPCdRB4cvmTh8r
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy on GitHub Pages
+
+This repo is set up to deploy to **https://LemonPkl69.github.io/disasterwatch-ai/**.
+
+1. **Enable GitHub Pages:** In the repo go to **Settings → Pages**. Under "Build and deployment", set **Source** to **GitHub Actions**.
+2. **Add API key:** Go to **Settings → Secrets and variables → Actions**. Add a repository secret named **`API_KEY`** with your Gemini API key (same value as `GEMINI_API_KEY` in `.env.local`).
+3. Push to `main` (or run the "Deploy to GitHub Pages" workflow manually). The site will be built and published automatically.
