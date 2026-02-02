@@ -1,0 +1,7 @@
+{
+  "name": "DisasterWatch AI",
+  "description": "Real-time natural disaster monitoring dashboard using AI to aggregate verified reports from social media and news sources, visualized on an interactive map.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
